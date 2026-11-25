@@ -17,7 +17,11 @@ const Config= {
   reporter :"html",
 
   use:{
-    browserName :'chromium'
+    browserName :'chromium',
+    // browserName :'webkit'
+    // browserName :'webkit'
+
+    headless:false
   }
 };
 
