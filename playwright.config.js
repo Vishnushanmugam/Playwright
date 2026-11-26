@@ -15,7 +15,12 @@ import { chromium, defineConfig, devices } from '@playwright/test';
 const Config= {
   testDir: './tests',
   reporter :"html",
+  
+  timeout:30000, //Global waiting time
 
+  expect:{
+    timeout:5000  //Waiting only for Assertions
+  },
   use:{
     browserName :'chromium',
     // browserName :'webkit'
