@@ -29,5 +29,7 @@ const Config= {
     headless:false
   }
 };
-
+export default defineConfig({
+  reporter: [['html', { open: 'always' }]],
+});
 module.exports =Config

@@ -1,0 +1,15 @@
+Playwright Notes:
+
+Locators -> Playwright is mostly using the CSS locators like #ID, Class, and Attribute.
+
+id value= "#username"
+class value = ".password"
+Attribute value= [name='login-button']
+
+
+Entering the value(text) in the text-box/input-box want to use - Fill method (type method is depreciation)
+
+1. test() creates a test case.
+2. page opens a browser page.
+3. page.goto() navigates to the website.
+4. expect – Used to verify whether the actual result matches the expected result (assertions).
